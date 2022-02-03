@@ -4,7 +4,7 @@ import { Routes } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 
 //importing project components
-import Contacts from "./components/Contacts";
+import Contacts from "./components/contacts/Contacts";
 import Deals from "./components/Deals";
 
 //importing styles
