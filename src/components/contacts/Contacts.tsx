@@ -93,6 +93,7 @@ export default function Contacts() {
             rowKey={(contact: contactsInterface) => {
               return contact._id;
             }}
+
             pagination={{ ...tablePagination, total: totalCount }}
             onChange={handleTableChange}
             scroll={{ y: 500 }}

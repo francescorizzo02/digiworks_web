@@ -1,4 +1,5 @@
 export interface OptionsInterface {
+
   limit: number;
   sort: string;
   page: number;
