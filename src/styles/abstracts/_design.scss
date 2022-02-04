@@ -1,8 +1,18 @@
 .dw__container {
-  width: 80%;
+  width: 100%;
+  height: calc(100vh - 100px);
+  overflow-y: scroll;
+}
+
+.dw__container > .dw__container__content {
   margin: 20px auto;
+  width: 80%;
 }
 
 .dw__card {
   box-shadow: 1px 1px 10px 1px rgb(215 215 215 / 85%);
+}
+
+.dw__c-pointer {
+  cursor: pointer;
 }

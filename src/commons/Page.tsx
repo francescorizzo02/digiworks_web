@@ -10,7 +10,9 @@ export default function Page(props: PageInterface) {
   return <>
     <Navbar/>
     <div className="dw__container">
-      {children}
+      <div className="dw__container__content">
+        {children}
+      </div>
     </div>
     <Footer/>
   </>

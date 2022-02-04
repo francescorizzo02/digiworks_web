@@ -1,0 +1,12 @@
+.searchable__icon {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchable__input {
+  transition: width 0.5s ease-in-out;
+}
